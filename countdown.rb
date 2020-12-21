@@ -10,3 +10,14 @@ def countdown(int)
   end
 
 end
+
+def countdown_with_sleep(int)
+  while int > 1
+    puts "#{int} SECOND(S)!"
+    sleep(1)
+    int-=
+  else
+    puts "HAPPY NEW YEAR!"
+    break
+  end
+end
